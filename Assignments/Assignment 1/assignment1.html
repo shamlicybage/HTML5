@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>Veronica Creators</h1></div>
+    <div><a href="login.html">Login</a></div>
+    <form action="./payment.html">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" required maxlength="10" autofocus placeholder="Enter name"></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="text" required pattern="^[1-9]+[0-9]{9}" placeholder="Enter Phone No."></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" required placeholder="Enter email"></td>
+            </tr>
+            <tr>
+                <td>Music</td>
+                <td><select >
+                    <option value="rap">Rap</option>
+                    <option value="classical">Classical</option>
+                    <option value="western">Western</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Proceed for Payment"></td>
+            </tr>
+        </table>
+    </form>
+    <script>
+        var a="a";
+            function ab()
+            {
+                a="b";
+            } 
+             ab(); 
+             console.log(a);
+             a+="c";
+              console.log(a);
+    </script>
+</body>
+</html>

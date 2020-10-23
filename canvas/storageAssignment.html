@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage Table</title>
+    <script src="storageScriptAssignment.js"></script>
+    <style>
+        table th {
+            border: 1px solid black;
+        }
+        td{
+            border: 1px solid black;
+        }
+        h2{
+            background-color: lightblue;
+            border: 1PX SOLID BLACK;
+        }
+        button{
+            background-color: rgb(206, 187, 231);
+        }
+        h1{
+            background-color: lightgrey;
+            border: 1PX SOLID BLACK;
+        }
+        #browser{
+            background-color: lightgreen;
+            border: 1PX SOLID BLACK;
+        }
+    </style>
+</head>
+<body >
+    <div><h1>Local storage and Session Storage</h1></div>
+    <div id="browser"></div>
+    <div><h2>Local Storage</h2></div>
+    <div>Enetr Key:<input type="text" id="key">
+        Enter Value:<input type="text" id="val">
+        <button value="Set Key" onclick="setKey()">Set Key</button>
+    </div>
+    
+    <table id="myTable">
+        <tr>
+          <th>Key</th>
+          <th>Value</th>
+          <th>Button</th>
+        </tr>
+       
+      </table>
+      <div><button value="clear" onclick="clearAllKeys()">Clear Keys</button></div>
+      <br>
+      <div><h2>Session Storage</h2></div>
+      <div>Enetr Key:<input type="text" id="keyS">
+        Enter Value:<input type="text" id="valS">
+        <button value="Set Key" onclick="setKeyStorage()">Set Key</button>
+    </div>
+    
+    
+    
+    <table id="myTableS">
+        <tr>
+          <th>Key</th>
+          <th>Value</th>
+          <th>Button</th>
+        </tr>
+       
+      </table>
+      <div><button value="clear" onclick="clearAllKeysS()">Clear Keys</button></div>
+</body>
+</html>
